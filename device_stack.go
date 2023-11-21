@@ -13,16 +13,16 @@ import (
 	N "github.com/sagernet/sing/common/network"
 	wgTun "github.com/sagernet/wireguard-go/tun"
 
-	"github.com/metacubex/gvisor/pkg/buffer"
-	"github.com/metacubex/gvisor/pkg/tcpip"
-	"github.com/metacubex/gvisor/pkg/tcpip/adapters/gonet"
-	"github.com/metacubex/gvisor/pkg/tcpip/header"
-	"github.com/metacubex/gvisor/pkg/tcpip/network/ipv4"
-	"github.com/metacubex/gvisor/pkg/tcpip/network/ipv6"
-	"github.com/metacubex/gvisor/pkg/tcpip/stack"
-	"github.com/metacubex/gvisor/pkg/tcpip/transport/icmp"
-	"github.com/metacubex/gvisor/pkg/tcpip/transport/tcp"
-	"github.com/metacubex/gvisor/pkg/tcpip/transport/udp"
+	"github.com/sagernet/gvisor/pkg/buffer"
+	"github.com/sagernet/gvisor/pkg/tcpip"
+	"github.com/sagernet/gvisor/pkg/tcpip/adapters/gonet"
+	"github.com/sagernet/gvisor/pkg/tcpip/header"
+	"github.com/sagernet/gvisor/pkg/tcpip/network/ipv4"
+	"github.com/sagernet/gvisor/pkg/tcpip/network/ipv6"
+	"github.com/sagernet/gvisor/pkg/tcpip/stack"
+	"github.com/sagernet/gvisor/pkg/tcpip/transport/icmp"
+	"github.com/sagernet/gvisor/pkg/tcpip/transport/tcp"
+	"github.com/sagernet/gvisor/pkg/tcpip/transport/udp"
 )
 
 var _ Device = (*StackDevice)(nil)
