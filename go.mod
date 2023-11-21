@@ -1,9 +1,9 @@
-module github.com/metacubex/sing-wireguard
+module github.com/weiweiwitch/sing-wireguard
 
 go 1.19
 
 require (
-	github.com/metacubex/gvisor v0.0.0-20231001104248-0f672c3fb8d8
+	github.com/sagernet/gvisor v0.0.0-20231119034329-07cfb6aaf930
 	github.com/sagernet/sing v0.2.12
 	github.com/sagernet/wireguard-go v0.0.0-20230420044414-a7bac1754e77
 )
